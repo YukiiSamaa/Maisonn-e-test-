@@ -1,0 +1,294 @@
+
+footer
+{
+    background-color: #d1d1d1;
+    height: 150px;
+    
+    width: 100%;
+}
+
+/* --------------------------- */
+/* CSS : MODULE DE NEWS        */
+/* --------------------------- */
+.text_logo
+{
+    
+}
+p
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    cursor: text;
+    position: relative;
+    text-align: center;
+    z-index: 5px;
+    
+    margin-top: auto;
+        
+}
+span
+{
+    color: white;
+}
+/* news - Article */
+.newsDate
+{
+    
+    float: right;
+    
+}
+.cadre
+{
+    color: white;
+    background-color: #253759;
+    position: absolute;
+    margin-top: -10px;
+    -webkit-box-shadow: -2px 10px 54px -17px rgba(0,0,0,0.7);
+    -moz-box-shadow: -2px 10px 54px -17px rgba(0,0,0,0.7);
+    box-shadow: -2px 10px 54px -17px rgba(0,0,0,0.7);
+}
+.newsArticle 						
+{ 
+    position:relative; width:100%; max-width:960px; margin:20px auto; padding:0; 
+}
+/* news - Entete */
+.newsArticle > header 				
+{ 
+    position:relative; background:#E1F0FF; 
+}
+.newsArticle > header > h4			
+{ 
+    position:relative; padding:15px 10px; font-size:120%; text-align:left; color:#3B4E77; font-weight:Bold;
+}
+.newsArticle > header > .newsDate 	
+{ 
+    position:absolute; display:block; top:5px; right:5px; 
+}
+/* news - Contenu */
+.newsContenu 					
+{ 
+    
+    background-color: #9CA6AD;
+    padding: 10px;
+    overflow: hidden;
+    text-align:right; 
+    margin-top: 35px;
+    /*(a cause des float dedans)*/ 
+}
+
+.newsContenu h1 			
+{ 
+    font-size:1.9em; color:#21409A; margin:5px; text-align:left; letter-spacing:0em; font-weight:normal; text-transform:uppercase;
+}
+.newsContenu h2 			
+{ 
+    font-size:1.7em; color:#21409A; margin:5px; text-align:left; letter-spacing:0em; font-weight:normal; text-transform:uppercase; 
+}
+.newsContenu h3 			
+{ 
+    font-size:1.5em; color:#21409A; margin:5px; text-align:left; letter-spacing:0em; font-weight:normal; text-transform:uppercase; 
+}
+.newsContenu h4 			
+{ 
+    font-size:130%; color:#21409A; margin:5px; text-align:left; letter-spacing:0em; font-weight:normal; text-transform:uppercase; 
+}
+.newsContenu h5 			
+{ 
+    font-size:120%; color:#21409A; margin:5px; text-align:left; letter-spacing:0em; font-weight:normal; text-transform:uppercase; 
+}
+.newsContenu h6 			
+{ 
+    font-size:1.0em; color:#21409A; margin:5px; text-align:left; letter-spacing:0em; font-weight:normal; text-transform:uppercase; 
+}
+.newsContenu h4 			
+{ 
+    clear:none; border:0; background:transparent; 
+} /* admin */
+.newsContenu img 			
+{ 
+    border:0; margin:5px; text-decoration:none; 
+}
+.newsContenu p 				
+{ 
+    clear:none; margin:5px auto; 
+}
+.newsContenu ul 			
+{ 
+    clear:none; margin-left:10px; list-style-position:inside; 
+}
+.newsContenu ul li 			
+{ 
+    margin:3px auto; list-style-position:inside; 
+}
+.newsContenu a 				
+{ 
+    text-decoration:none; 
+}
+.newsContenu a:hover 		
+{ 
+    text-decoration:underline; 
+}
+/* Photo a gauche du texte */
+img.newsArticlePhoto 			
+{ 
+    float:left; margin:5px 15px 5px 5px; 
+}
+
+/* Fichier Joint */
+.newsFile						
+{ 
+    
+    float:right; 
+    display:inline-block; 
+    margin:10px 5px; 
+    padding:2px 5px; 
+    
+    font-weight:bold; 
+    color:#F2F2F2; 
+    background:#1A2A40;/*vert*/ 
+    border-radius:5px; 
+}
+.newsFile:hover					
+{ 
+    background:#F8D200;/*vert moyen*/ text-decoration:none; 
+}	
+.newsFile span					
+{ 
+    display:inline-block; 
+    height:40px; 
+    background:url('../../../template/img/icones/PDF.png') 0px 0px no-repeat; 
+    padding:4px 2px 0px 20px; 
+}
+
+/* Lien Lire la Suite */
+.newsSuite						
+{ 
+    float:right; 
+    display:inline-block; 
+    margin:10px 5px 130px 5px; 
+    padding:2px 5px; 
+    
+    font-weight:bold; 
+    color:#F2F2F2; 
+    background:#1A2A40;/*vert*/ 
+    border-radius:8px; 
+}
+.newsSuite:hover				
+{ 
+    background:#F8D200;/*vert moyen*/ 
+    text-decoration:none; 
+}	
+.newsSuite span	{ 
+     
+    height:20px; 
+    background:url('../../../template/img/icones/VoirFiche.png') 0px 0px no-repeat; 
+    padding:4px 2px 0px 20px; 
+}
+
+/* Fiche : Lien Retour */
+.LienRetourListe				
+{ 
+    display:inline-block; 
+    margin:5px auto; 
+    padding:2px 5px; 
+    text-align:center; 
+    
+    
+    
+    background:#1A2A40;
+   border-radius: 5px;
+   
+}
+.LienRetourListe:hover			
+{ 
+    background:#F8D200;
+    text-decoration:none; 
+}	
+.LienRetourListe span			
+{ 
+    display:inline-block; 
+    height:35px; 
+    background:url('../../../template/img/icones/Retour.png') 0px 0px no-repeat; 
+    padding:4px 2px 0px 20px; 
+}
+
+/* --------------------------- */
+/* LISTING des News            */
+/* --------------------------- */
+/* Affichage en COLONNES : Définir ICI le Nombre de colonnes pour l'Affichage en Listing */
+#newsArticleListing				
+{ 
+    clear:both; width:100%; max-width:960px; margin:0 auto; 
+}
+#newsArticleListing				
+{ 
+    display:-webkit-flex; display:flex; -webkit-flex-wrap:wrap; flex-wrap:wrap; 
+}	/* flex box */
+.newsColonne 					
+{ 
+    margin:5px 0; -webkit-flex:1 1 100%; flex:1 1 100%; width:100%;
+}					/* defaut */
+.newsColonne1 					
+{ 
+    
+    -webkit-flex:1 1 100%; flex:1 1 100%; width:100%; 
+}					/* 1 colonne */
+.newsColonne2 					
+{ 
+    ; -webkit-flex:1 1 49%; flex:1 1 49%; width:49%; 
+}					/* 2 colonnes */
+.newsColonne3					
+{ 
+    ; -webkit-flex:1 1 32.33%; flex:1 1 32.33%; width:32.33%; 
+}		/* 3 colonnes */
+.newsColonne4 					
+{
+    margin:5px 0.5%; -webkit-flex:1 1 24%; flex:1 1 24%; width:24%; 
+}					/* 4 colonnes */
+.newsColonne5 					
+{ 
+    ; -webkit-flex:1 1 19%; flex:1 1 19%; width:19%; 
+}					/* 5 colonnes */
+.newsColonne6 					
+{ 
+   ; -webkit-flex:1 1 15.66%; flex:1 1 15.66%; width:15.66%; 
+}		/* 6 colonnes */
+
+/* --------------------------- */
+/* FICHE de la News            */
+/* --------------------------- */
+.newsArticle.newsFiche 					
+{ 
+    clear:both; width:100%; border:2px solid #ccc; margin:auto; background-color:#fff; 
+}
+.newsArticle.newsFiche .newsContenu 	
+{ 
+    position:relative; padding:15px; text-align:left; }
+
+/* Photo a gauche du texte */
+img.newsPhoto 					
+{ 
+    float:left; margin:5px 15px 5px 5px; 
+}
+
+/* --------------------------- */
+/* PAGINATION */
+.newsPagination					
+{ 
+    clear:both; display:inline-block; margin:15px auto; padding:3px 10px; 
+    border:1px solid #ccc; 
+    border-radius:5px; 
+}
+.newsPagination a, .newsPagination b	
+{ 
+    display:inline-block; 
+    padding:2px 5px; 
+    color:#21409A; 
+    border:1px solid #ccc; 
+    background:gainsboro;
+    border-radius:5px; 
+}
+.newsPagination a:hover, .newsPagination b:hover	
+{ 
+    background:#F8D200;/*vert moyen*/ text-decoration:none; font-weight:bold;
+}	

@@ -1,0 +1,17 @@
+@media screen and (max-width: 500px)
+{     
+    .menu_footer .logo_sec .vinci {
+        height: 45px;
+        margin-bottom: -110px;
+}
+
+        .menu_footer .logo_sec .caisse {
+            height: 45px;
+            margin-bottom: -110px;
+    }
+    .menu_footer .logo_sec .credit {
+        height: 45px;
+        margin-bottom: -110px;
+        float: none;
+     }
+}

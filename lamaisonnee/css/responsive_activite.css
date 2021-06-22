@@ -1,0 +1,170 @@
+@media screen and (max-width:500px)
+{
+    header .logo-main
+    {
+        height: auto; 
+        text-align: center;
+        position: relative;
+        float: none;
+        margin-left: 20%;
+
+    }
+
+    header .logo_FSE
+    {
+        float: none;
+        width: auto;
+
+
+    }
+    header
+    {
+        width: auto;
+        height: auto;
+    }
+
+    header nav{
+        float: none;
+        padding: 25px;
+        width: auto;
+        height: auto;
+        line-height: 5px;
+
+
+    }
+    body {
+        width: auto;
+    
+       text-align: center;
+    }
+    footer
+    {
+        background-color: #d1d1d1;
+        float: none;
+        height: 250px;
+        width: auto;
+        
+        
+        
+    }
+    #main_2 .article_1 .tableau_sociale .text_sociale{
+        font-size: 14px;
+        
+        
+    }
+    #main_2 .tableau_sociale .sociale_image{
+        width: 100px;
+    }
+    #main_3 .travaux .tableau_sociale .image_travaux{
+        width:85px;
+    }
+    #main_3 .travaux .tableau_sociale .text_sociale {
+        font-size: 14px;
+    }
+    
+    
+    #domaine_activity .domaine 
+    {
+        margin-top: auto;
+        
+    }
+    
+    #domaine_activity .domaine .domaine_text
+    {
+        float: none;
+        text-align: center;
+        font-size: 14px;
+        display: block;
+        padding: 10px;
+        line-height: 40px;
+    }
+    h3
+    {
+        float: none;
+        text-align: center;
+        width: auto;
+    }
+    .menu_footer .logo_sec p{
+        margin-top: -5px;
+    }
+
+    .menu_footer .logo_sec .vinci 
+    {
+        height: 45px;
+
+    }
+    .menu_footer .logo_sec .caisse
+    {
+        height: 45px;
+
+    }
+    .menu_footer .logo_sec .credit
+    {
+        height: 45px;
+        margin-right: 5%;
+        float: none;
+    }
+
+    .menu_footer .logo_sec .cmne{
+        height: 45px;
+        float: none;
+    }
+    .menu{
+        margin-left: 40px;
+    }
+    .menu_footer .menu .first_tab .contact 
+    {
+        float:left;
+        text-align: center;
+        font-size: 15px;
+
+        position: absolute;
+
+
+
+    }
+    .menu_footer .menu .last_tab .mentions
+    {
+        float:right;
+        text-align: center;
+        font-size: 15px;
+
+        margin-left: -9px;
+
+
+    }
+    .menu_tab .menu_footer .last_tab
+    {
+        border-left: solid 3px black;
+        text-align: center;
+        margin-top: 24px;
+        float: right;
+        position: relative;
+        right: -35px;
+
+    }
+    .menu_footer .logo_sec p {
+        margin-top: -5px;
+    }
+    .menu_tab  .fb .fb_text
+    {
+        font-size: 10px;
+        float: left;
+        margin-top: 5px;
+    }
+    #main_1 .chantier .topic_1
+    {
+        text-align: center;
+        margin-left: 20px;
+        
+    }
+    #main_1 .chantier .text_chantier{
+        font-size: 14px;
+        float: none;
+        text-align: center;
+        padding: 20px;
+        display: block;
+    }
+    
+    
+    

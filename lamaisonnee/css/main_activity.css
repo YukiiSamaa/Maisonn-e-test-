@@ -1,0 +1,145 @@
+footer
+{
+    background-color: #d1d1d1;
+    height: 150px;
+    clear: both;
+    width: 100%;
+}
+h2
+{
+    font-size: 30px;
+    font-family: 'Slabo 27px',serif;
+    text-align: center;
+    color: #11365a;
+    margin-top: 15px;
+    border-bottom: 1px solid;
+    border-bottom-color: #F8D200;
+    border-bottom-width: medium;
+    border-bottom-right-radius: 3PX;
+    
+}
+h3
+{
+
+    font-size: 25px;
+    font-family: 'Slabo 27px',serif;
+    text-align: center;
+    color: #11365a;
+    margin-top: 15px;
+    font-style: italic; 
+    
+}
+#main_1 .chantier .text_chantier
+{
+    
+    float: right;
+    font-size: 15px;
+    
+    line-height: 55px;
+    padding: 10px;
+    text-align: center;
+}
+
+#main_1 .tab_presse .image_presse
+{
+    width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+#main_1 .tab_presse{
+    margin-right: auto;
+    margin-left: auto;
+}
+#main_1 .tab_presse img:hover 
+{
+    width:350px;
+        
+}
+#main_2 .tableau_sociale .sociale_image
+{
+    width: 250px;
+    display: block;
+}
+#main_2 .tableau_sociale img:hover
+{
+    width: 350px;
+}
+#main_2 .tableau_sociale img:hover
+{
+    width: 350px;
+}
+#main_2 .article_1{
+    width: auto;
+}
+.article_2{
+    margin-top: 50px;
+    
+    
+    
+}
+#main_2 .tableau_sociale td .text_sociale{
+    font-family: 'Slabo 27px',serif;
+    cursor: text;
+    
+}
+#main_3 .travaux .tableau_sociale .image_travaux
+{
+    width: 250px;
+    display: block;
+}
+#main_3
+{
+   height: auto;
+    width: auto;
+  
+}
+#main_3 .travaux .tableau_sociale .text_sociale{
+    margin-right: auto;
+    margin-left: auto;
+}
+#main_3 .travaux .tableau_sociale
+{
+    margin-bottom: 30px;
+  
+    overflow: scroll;
+    clear: both;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 5px solid;
+    border-bottom-color: #F8D200;
+    
+}
+#main_3 .travaux .tableau_sociale .image_travaux:hover {
+    width: 350px;
+    
+}
+h3
+{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Slabo 27px',serif;
+    color: #11365a;
+    padding: 15px;
+}
+#main_3 .travaux{
+    
+    display: block;
+    
+}
+
+
+#domaine_activity .domaine
+{
+    margin-top: 450px;
+    height: 350px;
+}
+#domaine_activity .domaine_text 
+{
+    line-height: 25px;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+    
+}

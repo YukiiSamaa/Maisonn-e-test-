@@ -1,0 +1,275 @@
+/* GENERAL */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Slabo 27px', serif;
+    font-size: 25px;
+    text-align: center;
+}
+a
+{
+    text-decoration: none;
+    color: #11365a;
+    font-size: 30px;
+    font-weight: bold;
+}
+p1
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: #11365a;
+    cursor: pointer;
+}
+p2
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    cursor: text;
+     
+}
+h2{
+    font-size: 25px;
+    font-family: 'Slabo 27px',serif;
+    text-align: center;
+    color: #11365a;
+    
+}
+
+
+p
+{
+    font-family: 'Raleway', sans-serif;
+}
+h3{
+    font-size: 25px;
+    font-family: 'Slabo 27px',serif;
+    text-align: center;
+    color: #11365a;
+    border-bottom: 1px solid;
+    border-bottom-color: #F8D200;
+    border-bottom-width: medium;
+    border-bottom-right-radius: 3PX;
+}
+
+.main_legale .main-text{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.main_legale{
+    height: 505px;
+    text-align: center;
+    padding: 10px;
+    
+}
+.main_legale a .lien_1and1{
+    text-decoration: none;
+    
+}
+.main_legale a.lien_and1 {
+    font-size: 15px;
+}
+/*--------------------------------------------------------*/
+.texts{
+    height: auto;
+}
+
+.text-1
+{
+    
+    width: auto;
+    line-height: 30px;
+    line-break: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 12px;
+    MARGIN-TOP: 10PX;
+}
+.text-2 .www
+{
+    font-size: 12px;
+}
+.text2{
+    height: auto;
+}
+.text2 .handicap
+{
+    text-align: center;
+    height: 150px;
+}
+.text-2
+{
+    width: auto;
+    line-height: 35px;
+    line-break: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 12px;
+}
+p
+{
+    font-size: 15px;
+}
+
+.texts .text-1 .text-2
+{
+    display:block;
+}
+
+
+/*.text-1 .item-2{
+    animation-name: anim-2;
+}
+
+.text-1 .item-3{
+    animation-name: anim-3;
+}
+.item-1, 
+.item-2, 
+.item-3 {
+    
+    display: block;
+   
+
+
+   
+
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anim-1 {
+    0%, 8.3% { left: -100%; opacity: 0; }
+    8.3%,25% { left: 25%; opacity: 1; }
+    33.33%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+    0%, 33.33% { left: -100%; opacity: 0; }
+    41.63%, 58.29% { left: 25%; opacity: 1; }
+    66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+    0%, 66.66% { left: -100%; opacity: 0; }
+    74.96%, 91.62% { left: 25%; opacity: 1; }
+    100% { left: 110%; opacity: 0; }
+}
+
+*/
+/*--------------------------------------------------------*/
+
+/* FOOTER */
+
+
+
+.fb_logo
+{
+    height: 70px;
+    float: left;
+    margin:20px 0 30px 20px;
+}
+.fb_text
+{
+    float: left;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+.menu_tab .menu_footer .first_tab
+{
+    text-align: center;
+    
+    margin-right: 28px;
+    margin-top: 20px;   
+
+}
+.menu_footer .a
+{
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    position: absolute;
+}
+.menu_tab ul li
+{
+    padding: 0 0 0 1em;
+    margin-left: 1px;
+    text-align: center;
+    display: inline-block;
+}
+.menu_tab .menu
+{
+    border: none; 
+    position: absolute; 
+    float: left;
+    margin-left: 25%;
+    margin-top: 35px;
+}
+.menu_footer .logo_sec p
+{
+    color:#11365a;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+/*
+.menu_tab .menu_footer .first_tab:after
+{
+    content:   " | ";
+    padding: 0 10px;
+    font-size: 40px;
+    color:black;
+}
+*/
+.menu_footer .logo_sec .credit
+{
+    height: 80px;
+    float: right;
+    margin-left: 2px;
+}
+.menu_footer .logo_sec .cmne
+{
+    height: 80px;
+    
+}
+.menu_footer .logo_sec  
+{
+    float: right;
+    margin: auto;
+}
+/* ANIMATION */
+.menu_tab .menu_footer li:hover > a
+{
+    cursor: pointer;
+    color: #F8D200;
+}
+
+.menu_tab .menu_footer .last_tab
+{
+    border-left: solid 3px black;
+    text-align: center;
+    
+    margin-top: 20px;
+    float: right;
+    
+}
+.menu_tab .menu_footer .menu a
+{
+    font-size: 20px;
+    font-family: 'Slabo 13px',sans-serif;
+    text-transform: none;
+}
+
+ 
+
+

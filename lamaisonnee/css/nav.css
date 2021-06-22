@@ -1,0 +1,181 @@
+.section{
+    box-shadow: 00px 00px 10px 00px #F8D200;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    margin-top: -10px;
+}
+/* #0408f0b3 blue
+#F8D200 Yellow */
+header
+{
+    background-color:#b6b6b6b3;
+    position: relative;
+    height: 300px;
+    /* -webkit-box-shadow: -2px 10px 54px -17px rgba(247, 12, 63, 0.7);
+    -moz-box-shadow: -2px 10px 54px -17px rgba(41, 221, 110, 0.7);
+    box-shadow: -2px 10px 54px -17px #0408f0b3; */
+}
+.logo_main
+{
+    height: 190px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+header .logo_FSE 
+{
+    float: right;
+    
+}
+header nav
+{
+    float: right;
+    margin-top: 90px;
+    margin-right: 90px;
+}
+header nav a
+{
+    float: left;
+    /* margin: 15px; */
+    display:block;
+    font-size: 20px;
+}
+#menu{
+
+    width: 100%;
+    margin: 0;
+    padding: 10px 0 0 0;
+    list-style: none;
+
+}
+#menu li
+{
+    float: left;
+    padding: 0 0 10px 0;
+    position: relative;
+}
+
+#menu a
+{
+    float: left;
+    height: 25px;
+    padding: 0 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+#menu li:hover > a{
+    color: #F8D200;
+}
+
+*html #menu li a:hover{ /* IE6 */
+    color: #F8D200;
+}
+
+#menu li:hover > ul{
+    display: block;
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: absolute;
+    top: 45px;
+    left: 60px;
+    z-index: 99999;
+    background: #dddddd;
+    -moz-border-radius: 5px;
+    border-radius: 8px;
+
+
+}
+
+#menu ul li{
+    float: none;
+    margin: 0;
+    margin-top: 1px;
+    padding: 0;
+    display: block;
+    /*box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;*/
+
+}
+
+#menu ul li:last-child{
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#menu ul a{
+    padding: 10px;
+    height: auto;
+    line-height: 1;
+    display: block;
+    white-space: nowrap;
+    
+    text-transform: none;
+}
+
+*html #menu ul a{ /* IE6 */
+    height: 10px;
+    width: 150px;
+}
+
+*:first-child+html #menu ul a{ /* IE7 */
+    height: 10px;
+    width: 150px;
+}
+
+#menu ul a:hover{
+    /*background: #0186ba;*/
+    background: -moz-linear-gradient(#c2c2c2);
+    background: -webkit-gradient(linear, left top, left bottom, from(#c2c2c2), to(#c2c2c2));
+    background: -webkit-linear-gradient(#c2c2c2,  #c2c2c2);
+    background: -o-linear-gradient(#04acec,  #c2c2c2);
+    background: -ms-linear-gradient(#c2c2c2,  #c2c2c2);
+    background: linear-gradient(#c2c2c2,  #c2c2c2);
+}
+
+#menu ul li:first-child a{
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+
+/*#menu ul li:first-child a:after{
+    content: '';
+    position: absolute;
+    left: 50px;
+    top: -10px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 8px solid #444;
+}
+*/
+
+#menu ul li:first-child a:hover:after{
+    border-bottom-color: #F8D200;
+}
+
+#menu ul li:last-child a{
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+}
+
+/* Rétablissement du flottement */
+#menu:after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+* html #menu .menu_tab             { zoom: 1; } /* IE6 */
+*:first-child+html #menu { zoom: 1; } /* IE7 */

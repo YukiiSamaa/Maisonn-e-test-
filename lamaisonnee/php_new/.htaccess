@@ -1,0 +1,12 @@
+#--------------------------------------------------
+## Version PHP 5.6
+SetEnv PHP_VER 5_6
+#-------------------------
+# activation php5 (free.fr)
+<ifDefine Free>
+ PHP56 1
+</ifDefine>
+#--------------------------------------------------
+## affichage des répertoires : désactiver la création automatique d'index
+options -indexes
+#--------------------------------------------------

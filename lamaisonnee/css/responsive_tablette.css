@@ -1,0 +1,39 @@
+@media screen and (max-device-width : 1024px) {
+    header{
+        width: auto;
+        height: auto;
+
+    }
+    header nav
+    {
+        float: none;
+        width: auto;
+        height: auto;
+        margin-right: auto;
+    }
+    header .logo_FSE {
+        float: none;
+        width: auto;
+    }
+    body
+    {
+        text-align: center;
+    }
+    .slider_image{
+        margin-top: 30px;
+        overflow: hidden;
+
+    }
+    #menu li {
+        float: left;
+        padding: 0 0 10px 0;
+        position: relative;
+
+    }
+    #menu a{
+        float: left;
+        height: 25px;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+}

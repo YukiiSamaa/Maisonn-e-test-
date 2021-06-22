@@ -1,0 +1,195 @@
+
+@media screen and (max-width:1129px)
+{
+    header .logo-main
+    {
+        height: auto; 
+        text-align: center;
+       
+        
+    }
+    
+    header .logo_FSE{
+        float: none;
+        width: auto;
+        
+        
+    }
+    header .logo_FSE .grand{
+        width: 270px;
+    }
+    header
+    {
+        width: auto;
+        height: auto;
+    }
+    
+    header nav
+    {
+        float: none;
+        
+        width: auto;
+        height: auto;
+        line-height: 30px;
+        margin-right: auto;
+        
+        
+    }
+    #menu ul {
+        margin-left: auto;
+        margin-right: auto;
+        top: 56%;
+        left: 15%;
+        overflow: scroll;
+        line-height: 10px;
+    }
+    body
+    {
+        text-align: center;
+    }
+    footer
+    {
+        background-color: #d1d1d1;
+        
+        height: 240px;
+    
+
+
+
+    }
+    .menu_tab .fb
+    {
+        float: none;
+        height: auto;
+        width: auto;
+            
+    }
+    .menu_tab  .fb .fb_text
+    {
+        font-size: 10px;
+        float: left;
+        margin-top: 5px;
+    }
+    
+       
+    
+    .texts .barre
+    {
+        transform:rotate(90deg); 
+        -ms-transform:rotate(90deg); /* Internet Explorer */
+        -moz-transform:rotate(90deg); /* Firefox */
+        -webkit-transform:rotate(90deg); /* Safari et Chrome */ 
+        -o-transform:rotate(90deg); /* Opera */
+
+        height:248px;
+        width: 10px;
+        background-color: black;
+        margin-left: 45%;
+        margin-bottom: 20px;
+        margin-top:80px;
+        z-index: 2px;
+        position: absolute;
+        
+        
+    }
+    .text-2 .item-2
+    {
+        font-size: 15px;
+    }
+    .text-2 .item-3
+    {
+        font-size: 15px;
+    }
+    
+    .text-1 .item-2 
+    
+    {
+        font-size: 15px;
+        
+
+    }
+    .text-1 .item-3
+    {
+        font-size: 15px;
+    }
+
+    .texts .text-1 .text-2
+    {
+        display:block;
+        font-size: 30px;
+        z-index: 1px;
+    }
+    .menu_footer .logo_sec p{
+        margin-top: -5px;
+    }
+     
+    .menu_footer .logo_sec .vinci 
+    {
+        height: 45px;
+    
+    }
+    .menu_footer .logo_sec .caisse
+    {
+        height: 45px;
+        
+    }
+    .menu_footer .logo_sec .credit
+    {
+        height: 45px;
+        margin-right: 5%;
+        float: none;
+    }
+    
+    .menu_footer .logo_sec .cmne{
+        height: 45px;
+        float: none;
+    }
+    .menu{
+        margin-left: 40px;
+    }
+    .menu_footer .menu .first_tab .contact 
+    {
+        float:left;
+        text-align: center;
+        font-size: 15px;
+        
+        position: absolute;
+
+
+
+    }
+    .menu_footer .menu .last_tab .mentions
+    {
+        float:right;
+        text-align: center;
+        font-size: 15px;
+
+        margin-left: -9px;
+
+
+    }
+    .menu_tab .menu_footer .last_tab
+    {
+        border-left: solid 3px black;
+        text-align: center;
+        margin-top: 24px;
+        float: right;
+        position: relative;
+        right: -35px;
+
+    }
+    .menu_footer .logo_sec p {
+        margin-top: -5px;
+    }
+    .text2 img.handicap{
+        height: 120px;
+    }
+    
+    
+}
+@media screen and (max-width:400px){
+    .g-recaptcha{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

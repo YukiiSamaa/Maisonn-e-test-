@@ -1,0 +1,38 @@
+@media screen and (max-width:500px)
+{
+    .top .plan
+    {
+        float: none;
+        width: 350px;
+        height: 300px;
+        
+        
+       
+        
+    }
+    
+    
+        h4
+        {
+            
+            font-size: 25px;
+            font-family: 'Slabo 27px',serif;
+            text-align: center;
+            color: #11365a;
+            padding-bottom: 20px;
+            margin-left: 20px;
+
+
+        }
+    
+    .menu_footer .logo_sec {
+        
+       
+        
+        height: 1px;
+        
+    }
+    
+    
+ }
+        

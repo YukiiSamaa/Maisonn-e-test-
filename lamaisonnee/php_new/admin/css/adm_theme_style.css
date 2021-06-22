@@ -1,0 +1,121 @@
+/* © Jérome Réaux : http://j-reaux.developpez.com - https://www.jerome-reaux-creations.fr */
+
+/* --- CSS ADMINISTRATION --- */
+*							{ margin:0; padding:0; }
+html, body 					{ margin:0; padding:0; width:100%; height:100%; }
+html 							{ background:#dedede; font-family:Arial, sans-serif; color:#000000; font-size:10pt; text-align:left; text-decoration:none; }
+
+/* --- textes, tables, ... --- */
+h1, h2, h3, h4, h5, h6 		{ margin:0; padding:5px; text-align:center; }
+h1 							{ font-size:1.8em; color:#AAAAAA; border:1px solid #AAA; margin:5px auto; letter-spacing:0.2em; text-align:center; 
+							background:#eee; border-radius:5px; 
+							}
+h2 							{ font-size:160%; color:#21409A; margin:5px auto; font-weight:normal; text-align:center; }
+h3 							{ font-size:140%; color:#21409A; text-align:center; font-weight:normal; text-transform:uppercase; }
+h4 							{ font-size:120%; color:#21409A; text-align:left; font-weight:normal; text-transform:uppercase; }
+p 							{ margin:0; padding:5px; text-align:left; }
+hr 							{ clear:both; width:100%; height:1px; color:#21409A; background-color:#21409A; border:0; margin:5px auto; padding:0; outline:none; }
+a 							{ color:#21409A; text-decoration:none; }
+a:hover 					{ color:#21409A; text-decoration:underline; }
+table 						{ width:100%; border:2px solid #ccc; margin:0 auto; padding:0; background-color:#fff; }
+th 							{ color:#21409A; padding:10px 2px; text-align:center; font-size:1.0em; border:1px solid #ccc; background-color:#DCE5F9; }
+td 							{ text-align:center; padding:10px 2px; border:1px solid #ccc; }
+
+/* -------- IMAGE  -------- */
+img 						{ border:none; }
+a img 						{ border:none; }
+
+/* --- ADMINISTRATION INDEX --- */
+#boxIndexIdentificationForm	{ width:30%; min-width:380px; text-align:center; margin:50px auto; padding:10px; 
+							border:2px solid #ccc; background-color:#fff; }
+
+/* --- ADMINISTRATION CONTENU --- */
+#mainCentrer 				{ width:90%; margin:0 auto; padding:0; min-height:100%; text-align:center; }
+
+/* Top */
+#containerTop				{ position:relative; clear:both; padding:5px 0 0; }
+#boxBoutonTopLeft			{ position:absolute; top:0; left:0; }
+#boxBoutonTopRight			{ position:absolute; top:0; right:0; }
+
+/* Lisnting */
+#newsArticleListing			{ clear:both; padding:0 0 5px; }
+
+/* Contenus */
+.adm_mainContenu 			{ width:100%; clear:both; margin:10px auto; padding:0; text-align:left; 
+							border:1px solid #fefefe; background:#eee; 
+							border-radius:5px; 
+							}
+.adm_mainContenu h4  		{ clear:both; margin:5px; text-align:center; 
+							border:1px solid #ccc; background:#DCE5F9;/*bleu clair*/ 
+							border-radius:5px; 
+							}
+.adm_mainContenu p  		{ clear:both; margin:10px 0; text-align:left; }
+
+#containerCopyright 		{ width:90%; margin:15px auto; padding:0; min-height:100%; text-align:center; color:#666; }
+
+/* ----- formulaire ----- */
+.adm_mainForm 				{ display:-webkit-flex; display:flex; }
+.adm_mainForm_Left 			{ -webkit-flex:1 1 70%; flex:1 1 70%; width:70%; padding:10px 0; text-align:left; }
+.adm_mainForm_Right 			{ -webkit-flex:1 1 30%; flex:1 1 30%; width:30%; min-width:240px; padding:10px 0; text-align:left; }
+
+form 						{ margin:0; padding:0; }
+fieldset 					{ margin:0; padding:0; border:0; }
+label 						{ display:inline-block; width:25%; min-width:100px; color:#616161; font-size:90%; margin:0 10px 0 0; padding:0; font-weight:normal; }
+label:hover 				{ cursor:pointer; }
+
+select, input, textarea		{ display:inline-block; padding:10px; margin:3px 10px 0 0; border:1px solid #ccc; border-radius:5px; }
+label + select, label + input, label + textarea		{ display:inline-block; width:65%; }
+input.checkboxInput, input.radioInput 	{ width:auto; border:0; }
+label.checkboxLabel, label.radioLabel, label[type="radio"], label[type="checkbox"]	{ display:inline-block; width:auto; }
+/* ----- BOUTONS ----- */
+button, .aRetourSite, .aLienRetour, .aLienAnnuler 			
+							{ cursor:pointer; display:inline-block; padding:10px; border:1px solid #ccc; font-weight:bold; color:#21409A; 
+							background:#E4FFE1;/*vert*/ 
+							border-radius:5px; 
+							}
+button:hover, .aRetourSite:hover, .aLienRetour:hover, .aLienAnnuler:hover
+							{ background:#B7FFAE;/*vert moyen*/ text-decoration:none; }	
+
+.aLienAnnuler 				{ background:#FFE4E1;/*rose*/ }
+.aLienAnnuler:hover			{ background:#FFC6BF;/*rouge moyen*/ } 
+
+/* index */
+button.btConnexion			{ margin:10px auto; padding:10px; }
+button.btConnexion span		{ display:inline-block; min-height:24px; background:url('../icones/Connexion.png') 0px 0px no-repeat; padding:2px 2px 2px 30px; }
+.aRetourSite span			{ display:inline-block; min-height:24px; background:url('../icones/Retour.png') 0px 0px no-repeat; padding:2px 2px 2px 30px; }
+/* Deconnexion */
+.btDeconnexion span			{ display:inline-block; min-height:24px; background:url('../icones/Deconnexion.png') 0px 0px no-repeat; padding:4px 2px 0px 30px; }
+/* Ajouter */
+.btAjouter span				{ display:inline-block; min-height:24px; background:url('../icones/Ajouter.png') 0px 0px no-repeat; padding:4px 2px 0px 30px; }
+/* Retour */
+.aLienRetour span			{ display:inline-block; min-height:24px; background:url('../icones/Retour.png') 0px 0px no-repeat; padding:2px 2px 2px 30px; }
+
+/* ----- validation ----- */
+#boxValidation				{ padding:5px; height:50px; }
+/* Loading bar */
+#boxLoading					{ clear:both; display:none; height:50px; margin:0 5px; background:url('../icones/loading_bar_animated_400.gif') center center no-repeat; } 
+
+.btValider, .btCorriger		{ float:right; }
+.btValiderAjouter span		{ display:inline-block; height:22px; background:url('../icones/Ajouter.png') 0px 0px no-repeat; padding:4px 2px 0px 30px; }
+.btValiderModifier span		{ display:inline-block; height:22px; background:url('../icones/Modifier.png') 0px 0px no-repeat; padding:4px 2px 0px 30px; }
+.btValiderSupprimer span	{ display:inline-block; height:22px; background:url('../icones/Supprimer.png') 0px 0px no-repeat; padding:4px 2px 0px 30px; }
+/* Annuler */
+.aLienAnnuler span			{ display:inline-block; height:22px; background:url('../icones/Annuler.png') 0px 0px no-repeat; padding:2px 2px 2px 30px; }
+/* Corriger */
+.btCorriger span			{ display:inline-block; height:22px; background:url('../icones/Modifier.png') 0px 0px no-repeat; padding:4px 2px 0px 30px; }
+
+/* icones */
+span.icoCheckOui			{ display:inline-block; width:16px; height:16px; background:url('../icones/ico_checkOui.png') center no-repeat; padding:0 5px; }
+span.icoCheckNon			{ display:inline-block; width:16px; height:16px; background:url('../icones/ico_checkNon.png') center no-repeat; padding:0 5px; }
+
+/* infos de validation */
+.boxMsgOk			 		{ margin:5px; padding:5px; text-align:center; font-weight:normal;
+							color:#006600; border:1px solid #66cc66; background-color:#ccffcc; 
+							border-radius:5px; 
+							}
+.boxMsgErreur		 		{ margin:5px; padding:5px; text-align:center; font-weight:normal; 
+							color:#800000; border:1px solid #ff6666; background-color:#ffcccc; 
+							border-radius:5px; 
+							}
+
+/* --------------------------- */

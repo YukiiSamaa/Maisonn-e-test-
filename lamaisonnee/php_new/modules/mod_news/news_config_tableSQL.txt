@@ -1,0 +1,35 @@
+-- --------------------------------------------------------
+-- Structure de la table `NEWS_TAB_ARTICLES`
+-- --------------------------------------------------------
+CREATE TABLE IF NOT EXISTS `NEWS_TAB_ARTICLES` (
+  `news_id` int(10) NOT NULL AUTO_INCREMENT,
+  `news_titre` varchar(255) NOT NULL DEFAULT '',
+  `news_contenu` text NOT NULL,
+  `news_date` int(5) NOT NULL,
+  `news_photo` varchar(255) DEFAULT NULL COMMENT 'URL de la Photo',
+  `news_photo_largeur` int(2) NOT NULL DEFAULT '33' COMMENT 'largeur en %',
+  `news_file` varchar(255) DEFAULT NULL COMMENT 'URL du Fichier',
+  `news_publier` int(2) NOT NULL DEFAULT '1' COMMENT 'publier : 1=oui 0=non',
+  PRIMARY KEY (`news_id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+-- --------------------------------------------------------
+-- --------------------------------------------------------
+-- Structure de la table `NEWS_ADM_CONNEXION`
+-- --------------------------------------------------------
+CREATE TABLE IF NOT EXISTS `NEWS_ADM_CONNEXION` (
+  `id_conn` int(10) NOT NULL AUTO_INCREMENT,
+  `id_statut` int(2) NOT NULL DEFAULT '1' COMMENT '1-9 (10=superadmin)',
+  `log_admin` varchar(100) NOT NULL DEFAULT '',
+  `pwd_admin` varchar(200) NOT NULL DEFAULT '',
+  `controle` varchar(50) DEFAULT NULL COMMENT 'Laisser VIDE en production !',
+  `nom_admin` varchar(100) NOT NULL,
+  `prenom_admin` varchar(100) NOT NULL,
+  `email_admin` varchar(150) NOT NULL,
+  PRIMARY KEY (`id_conn`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 PACK_KEYS=0 AUTO_INCREMENT=2 ;
+
+--
+-- Contenu de la table `NEWS_ADM_CONNEXION`
+-- ==> Par sécurité, la modification devra se faire MANUELLEMENT directement dans la base de données
+-- ==> Générer un mot de passe hashé : admin/adm-createpwd.php
+--

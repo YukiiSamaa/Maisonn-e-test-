@@ -1,0 +1,136 @@
+h3
+{
+    font-size: 40px;
+    font-family: 'Slabo 27px',serif;
+    text-align: center;
+    color: #11365a;
+    
+    
+    
+
+}
+.g-recaptcha{
+    margin-right: auto;
+    margin-left: 40%;
+    margin-top: 5px;
+    
+
+}
+.top
+{
+    display: block;
+    box-sizing: border-box;
+    padding: 40px;
+   
+}
+.top .plan{
+    
+    float: left;
+    padding-bottom: 25px;
+}
+.top .container_text
+{
+    
+    
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+    
+    
+}
+.top .container_droite
+{
+   
+    
+}
+.low .main
+{
+    margin-top: 35px;
+    padding: 10px;
+}
+.low .main .text_low
+{
+    
+    
+    color: black;
+    
+    font-size: 20px;
+   
+    
+}
+h4
+{
+    
+    font-size: 25px;
+    font-family: 'Slabo 27px',serif;
+    text-align: center;
+    color: #11365a;
+    padding-bottom: 20px;
+    
+    
+}
+#contact
+{
+    width: auto;
+    background-color: #253759;
+    text-align: center;
+    color: white;
+}
+input[type=text]
+{
+    
+    width: auto;
+    padding: 1px;
+    margin: 5px;
+    border-radius: 5px;
+    
+    border: solid;
+    border-color: #F8D200;
+
+}
+
+fieldset
+{
+    
+    border: none;
+}
+legend
+{
+    font-size: 25px;
+    MARGIN-LEFT: AUTO;
+    MARGIN-RIGHT: AUTO;
+    FLOAT: NONE;
+}
+label{
+    font-size: 12px;
+}
+#contact #msg
+{
+    text-align: center;
+}
+#contact #btn
+{
+        
+}
+input[type=submit] {
+    width: 30%;
+    background-color: #253759;;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#contact #message
+{
+    border-radius: 8px;
+    border-color: #F8D200;
+}
+footer
+{
+    background-color: #d1d1d1;
+    height: 150px;
+    position: absolute;
+    width: 100%;
+}

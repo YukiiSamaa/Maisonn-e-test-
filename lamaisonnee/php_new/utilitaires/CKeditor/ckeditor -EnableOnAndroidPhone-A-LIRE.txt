@@ -1,0 +1,12 @@
+
+Downoad the latest version (default build) of ckeditor
+
+Open ckeditor.js file in notepad (placed at the root of ckeditor folder)
+
+Find the statement: if(b.webkit)a.indexOf("chrome")>-1?b.chrome=true:b.safari=true;
+
+Add the following statement after of the above statement:   if(b.chrome)b.mobile=false;
+
+Save and upload it on your server
+:) CKEditor will be working now on your Android Browser
+
