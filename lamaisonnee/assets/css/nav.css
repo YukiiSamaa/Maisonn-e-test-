@@ -15,6 +15,10 @@ header
     -moz-box-shadow: -2px 10px 54px -17px rgba(41, 221, 110, 0.7);
     box-shadow: -2px 10px 54px -17px #0408f0b3; */
 }
+::selection { /* effet souris  */
+    background: #F8D200; /* REMPLACER PAR LA COULEUR DÉSIRÉE*/
+    color: #fff
+}
 .logo_main
 {
     height: 190px;
@@ -30,7 +34,7 @@ header .logo_FSE
 header nav
 {
     float: right;
-    margin-top: 90px;
+    margin-top: 120px;
     margin-right: 90px;
 }
 header nav a
