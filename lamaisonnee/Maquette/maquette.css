@@ -5,12 +5,38 @@
 header{
     background-color: black;
     color: white;
+    height: 40px;
+}
+.text_1{
+    padding-top: 5px;
+    text-align: center;
 }
 body{
-    background-color: wheat;
+    background-color: whitesmoke
 }
 .accueil{
-    background-color: yellow;
+    background-color: rgb(211, 204, 71);
+    color: black;
+}
+.Droite{
+    padding-top: 30px;
+    text-align: center;
+    height: 100px;
+    width: 960px;
+    float: right;
+    background-color: rgb(240, 229, 34);
+}
+.Gauche{
+    padding: 15px;
+    text-align: center;
+    height: 100px;
+    width: 960px;
+    float: left;
+    background-color: whitesmoke
+}
+.mission{
+    background-color: blue;
+    color: white;
 }
 footer{
     background-color: black;
