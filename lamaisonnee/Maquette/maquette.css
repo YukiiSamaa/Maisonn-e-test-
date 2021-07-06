@@ -1,44 +1,45 @@
 ::selection{                                            /*Sélection avec la souris paramètre*/
-    background-color: yellow;
+    background-color: goldenrod;
     color:blue;
 }
+/* .accueil{
+    background-color: goldenrod;
+    color: black;
+} */
 header{
-    background-color: black;
+    background-color: rgb(36, 35, 35);
     color: white;
     height: 40px;
 }
-.text_1{
-    padding-top: 5px;
+.nav{
     text-align: center;
+    color: rgb(255, 255, 255);
 }
 body{
     background-color: whitesmoke
 }
 .accueil{
-    background-color: rgb(211, 204, 71);
+    background-color: black;
+    color: white;
+}
+
+.mission{
+    background-color: goldenrod;
+    color: white;
+}
+.actualité{
+    background-color: whitesmoke;
     color: black;
 }
-.Droite{
-    padding-top: 30px;
-    text-align: center;
-    height: 100px;
-    width: 960px;
-    float: right;
-    background-color: rgb(240, 229, 34);
+.sponsor{
+    background-color: black;
+    color: white;
 }
-.Gauche{
-    padding: 15px;
-    text-align: center;
-    height: 100px;
-    width: 960px;
-    float: left;
-    background-color: whitesmoke
-}
-.mission{
-    background-color: blue;
+.contact{
+    background-color: goldenrod;
     color: white;
 }
 footer{
-    background-color: black;
+    background-color:rgb(36, 35, 35);
     color: white;
 }
