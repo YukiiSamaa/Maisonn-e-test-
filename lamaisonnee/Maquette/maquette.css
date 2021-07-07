@@ -1,6 +1,19 @@
 ::selection{                                            /*Sélection avec la souris paramètre*/
-    background-color: goldenrod;
+    background-color: rgb(192, 145, 25);
     color:blue;
+}
+.button{
+    padding-right: 24px;
+}
+.test{
+    color: brown;
+}
+.logo{
+    height: 50px;
+    width: 70px;
+}
+.background-nav{
+    background-color: rgb(36, 35, 35);
 }
 /* .accueil{
     background-color: goldenrod;
@@ -9,7 +22,6 @@
 header{
     background-color: rgb(36, 35, 35);
     color: white;
-    height: 40px;
 }
 .nav{
     text-align: center;
@@ -19,6 +31,7 @@ body{
     background-color: whitesmoke
 }
 .accueil{
+    padding-left: 10px;
     background-color: black;
     color: white;
 }
