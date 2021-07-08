@@ -1,58 +1,103 @@
-::selection{                                            /*Sélection avec la souris paramètre*/
+::selection {
+    /*Sélection avec la souris paramètre*/
     background-color: rgb(192, 145, 25);
-    color:blue;
+    color: blue;
 }
-.button{
+
+.button {
     padding-right: 24px;
 }
-.test{
-    color: brown;
-}
-.logo{
+
+.logo {
     height: 50px;
     width: 70px;
 }
-.background-nav{
-    background-color: rgb(36, 35, 35);
+
+#Nav-button {
+    background-color: black;
+    border-color: goldenrod;
 }
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: goldenrod;
+}
+
+.navbar-toggler .collapsed {
+    background-color: red;
+}
+
+.navbar {
+    background-color: #242323;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: whitesmoke;
+}
+
+
 /* .accueil{
     background-color: goldenrod;
     color: black;
 } */
-header{
+
+header {
     background-color: rgb(36, 35, 35);
     color: white;
 }
-.nav{
+
+.nav {
     text-align: center;
     color: rgb(255, 255, 255);
 }
-body{
+
+.text-1 {
+    text-align: left;
+}
+
+body {
     background-color: whitesmoke
 }
-.accueil{
-    padding-left: 10px;
-    background-color: black;
+
+.accueil {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #000000;
+    color: white;
+    text-align: left;
+}
+
+.mission {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #daa520;
     color: white;
 }
 
-.mission{
-    background-color: goldenrod;
-    color: white;
-}
-.actualité{
+.actualité {
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: whitesmoke;
     color: black;
 }
-.sponsor{
-    background-color: black;
+
+.partenaire {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #000000;
     color: white;
 }
-.contact{
+
+.contact {
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: goldenrod;
     color: white;
 }
-footer{
-    background-color:rgb(36, 35, 35);
+
+footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(36, 35, 35);
     color: white;
 }
