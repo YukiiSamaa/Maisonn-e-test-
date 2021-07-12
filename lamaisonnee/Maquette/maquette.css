@@ -14,7 +14,7 @@
 }
 
 #Nav-button {
-    background-color: black;
+    background-color: #000000;
     border-color: goldenrod;
 }
 
@@ -42,7 +42,7 @@
 } */
 
 header {
-    background-color: rgb(36, 35, 35);
+    background-color: #242323;
     color: white;
 }
 
@@ -63,7 +63,7 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #000000;
-    color: white;
+    color: #ffffff;
     text-align: left;
 }
 
@@ -77,7 +77,7 @@ body {
 .actualité {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: whitesmoke;
+    background-color: #f5f5f5;
     color: black;
 }
 
