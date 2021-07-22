@@ -5,12 +5,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>La maisonnée</title>
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/slider_image.css">
-        <link rel="stylesheet" href="css/nav.css">
-        <link rel="stylesheet" href="css/main_contact.css">
-        <link rel="stylesheet" href="css/responsive.css">
-        <link rel="stylesheet" href="css/responsive_contact.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/slider_image.css">
+        <link rel="stylesheet" href="assets/css/nav.css">
+        <link rel="stylesheet" href="assets/css/main_contact.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="assets/css/responsive_contact.css">
         <title>La maisonnée</title>
         <script src='https://www.google.com/recaptcha/api.js'></script>
         
@@ -56,16 +56,16 @@
         <header>
             <div class="logo-main">
 
-                <a href="index.html"><img  src="images/logo-maisonnee.png" class="logo_main"></a>
+                <a href="index.html"><img  src="src/images/logo-maisonnee.png" class="logo_main"></a>
 
             </div>
             <div class="logo_FSE">
-                <img src="images/Layer%201.png" >
-                <img src="images/Layer%202%20copy.png" >
-                <img src="images/Layer%206%20copy.png">
-                <img src="images/Layer%203%20copy.png" >
-                <img src="images/Layer%204%20copy.png" >
-                <img src="images/Layer%205%20copy.png" >
+                <img src="src/images/Layer%201.png" >
+                <img src="src/images/Layer%202%20copy.png" >
+                <img src="src/images/Layer%206%20copy.png">
+                <img src="src/images/Layer%203%20copy.png" >
+                <img src="src/images/Layer%204%20copy.png" >
+                <img src="src/images/Layer%205%20copy.png" >
             </div>
             <div class="nav">
                 <nav>
@@ -197,7 +197,7 @@
                         <a href="contact.php" class="contact">Contact</a>
                     </li>
                     <li class="last_tab">
-                        <a href="mentions_legale.html" class="mentions">Mentions Légales
+                        <a href="mention_legale.html" class="mentions">Mentions Légales
                         </a>
 
                     </li>
