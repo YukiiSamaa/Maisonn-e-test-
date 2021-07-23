@@ -1,3 +1,4 @@
+
 <header>
             <div class="logo-main">
 
@@ -5,23 +6,23 @@
 
             </div>
             
-            <div class="logo_FSE">
+            <!-- <div class="logo_FSE">
                 <img src="src/images/Layer%201.png" >
                 <img src="src/images/Layer%202%20copy.png" >
                 <img src="src/images/Layer%206%20copy.png">
                 <img src="src/images/Layer%203%20copy.png" >
                 <img src="src/images/Layer%204%20copy.png" >
                 <img src="src/images/Layer%205%20copy.png" >
-            </div>
+            </div> -->
             <div class="nav">
                 <nav>
                     <ul id="menu">
-                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="index.php">Accueil</a></li>
 
                         <li><a href="activite.html">Notre Activité</a>
                             <ul>
                                 <li><a href="">Revue de Presse</a>
-                                   <ul>
+                                 <!--  <ul>
                                        <li><a href="image_insertion/article-1.jpeg" target="_blank"  > Courrier Picard du 20/12/2018</a>
                                        </li>
                                        <li><a href="image_insertion/article-2.jpeg" target="_blank"  > Courrier Picard du 20/12/2018</a>
@@ -40,7 +41,7 @@
                                         <li><a href="image_insertion/revue_presse-4.jpg" target="_blank">Vivre en Somme n°108 sept-oct 2017</a> </li>
                                        <li><a href="image_insertion/revue_presse_5.jpg" target="_blank">Courrier Picard du juin 2017</a> </li>
                                        <li><a href="image_insertion/revue_presse_3.jpg" target="_blank">Courrier Picard du 11/04/2017</a> </li>
-                                </ul>
+                                </ul> -->
                                 </li>
                                 <li><a href="#main_2">Action d'insertion Sociale</a></li>
                                 <li><a href="#main_3">Nos chantiers en cours</a></li>
