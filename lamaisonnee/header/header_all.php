@@ -19,7 +19,7 @@
                     <ul id="menu">
                         <li><a href="index.php">Accueil</a></li>
 
-                        <li><a href="activite.html">Notre Activité</a>
+                        <li><a href="activite.php">Notre Activité</a>
                             <ul>
                                 <li><a href="">Revue de Presse</a>
                                  <!--  <ul>

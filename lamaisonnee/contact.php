@@ -53,68 +53,7 @@
 
     </head>
     <body>
-        <header>
-            <div class="logo-main">
-
-                <a href="index.html"><img  src="src/images/logo-maisonnee.png" class="logo_main"></a>
-
-            </div>
-            <div class="logo_FSE">
-                <img src="src/images/Layer%201.png" >
-                <img src="src/images/Layer%202%20copy.png" >
-                <img src="src/images/Layer%206%20copy.png">
-                <img src="src/images/Layer%203%20copy.png" >
-                <img src="src/images/Layer%204%20copy.png" >
-                <img src="src/images/Layer%205%20copy.png" >
-            </div>
-            <div class="nav">
-                <nav>
-                    <ul id="menu">
-                        <li><a href="index.html">Accueil</a></li>
-
-                        <li><a href="activite.html">Notre Activité</a>
-                            <ul>
-                                <li><a href="#chantier_insertion">Revue de Presse</a>
-                                    <ul>
-                                        <li><a href="image_insertion/article-1.jpeg" target="_blank"  > Courrier Picard du 20/12/2018</a>
-                                        </li>
-                                        <li><a href="image_insertion/article-2.jpeg" target="_blank"  > Courrier Picard du 20/12/2018</a>
-                                        </li>
-                                        <li><a href="image_insertion/revue_presse_14.jpeg"  target="_blank">Le HURLEUX de novembre 2018</a>
-                                        <li><a href="image_insertion/revue_presse_10.jpg" target="_blank">Courrier Picard du 29/06/2018</a>
-                                       </li>
-                                        <li><a href="image_insertion/revue_presse_12.png" target="_blank"  > Courrier Picard du 21/06/2018</a>
-                                        </li>
-                                        <li><a href="image_insertion/revue_presse_13.png" target="_blank"  > Bulletin Intercommunal Val de Somme :juin 2018</a>
-                                        </li>
-
-                                        <li><a href="image_insertion/revue_presse_9 .jpg" target="_blank"  > Courrier Picard du 13/06/2018</a>
-                                        </li>
-                                        <li><a href="image_insertion/revue_presse_2.jpg"  target="_blank"> Courrier Picard du 12/06/2018</a> </li>
-                                        <li><a href="image_insertion/revue_presse_7%20copy.jpg" target="_blank"> Courrier Picard du 11/02/2018</a> </li>
-                                        <li><a href="image_insertion/revue_presse.jpg" target="_blank"> Courrier Picard du 24/10/2017</a> </li>
-                                        <li><a href="image_insertion/revue_presse-4.jpg" target="_blank">Vivre en Somme n°108 sept-oct 2017</a> </li>
-                                        <li><a href="image_insertion/revue_presse_5.jpg" target="_blank"> Courrier Picard du juin 2017</a> </li>
-                                        <li><a href="image_insertion/revue_presse_3.jpg" target="_blank"> Courrier Picard du 11/04/2017</a> </li>
-                                    </ul>
-                                
-                                </li>
-                                <li><a href="activite.html#main_2">Action d'insertion Sociale</a></li>
-                                <li><a href="activite.html#main_3">Nos chantiers en cours </a></li>
-
-                            </ul>
-                        </li>
-
-
-                        <li><a href="php_new/article.php">Notre actualité</a></li>
-
-                        <li><a href="contact.php">Contact</a></li>
-
-                    </ul>
-                </nav>
-
-            </div>
-        </header>
+        <?php include("header/header_all.php")?>
         <section class="top">
             
             <div class="google_plan">
@@ -171,42 +110,7 @@
             <div class="g-recaptcha" data-sitekey="6LdVSGAUAAAAAN-IZ-RxyZSp6VTpeTOAnoVy1tgN"></div>
             <div style=" margin-top:10px;text-align:center;"><input  id="btn"type="submit" name="envoi" value="Envoyer le formulaire !" /></div>
         </form>
-        <footer class="menu_tab">
-            <div class="fb">
-                <a href="https://www.facebook.com/maisonnee/"  > <img src="images/fb_logo2.png" class="fb_logo"></a>
-                <div class="fb_text">
-                    <p1>
-                        Suivez-nous 
-                        sur Facebook
-                    </p1>
-
-                </div>
-            </div>
-            <div class="menu_footer">
-                <div class="logo_sec">
-                    <p>Avec le soutien :</p>
-                    <img  class="vinci"src="images/Fond_Vinci_logo1%20copy.png">
-                    <img class="cmne" src="images/B_CREDIT_MUTUEL2014_Q.png">
-                    <img class="caisse"src="images/logo-caisse-epargne%20copy.png">
-
-                    <img class="credit"src="images/Crédit_Agricole2.png">
-
-                </div>
-                <ul class="menu">
-                    <li class="first_tab">
-                        <a href="contact.php" class="contact">Contact</a>
-                    </li>
-                    <li class="last_tab">
-                        <a href="mention_legale.html" class="mentions">Mentions Légales
-                        </a>
-
-                    </li>
-                </ul>
-
-
-            </div>
-
-        </footer>
+        <?php include("footer/footer_all.php") ?>
     </body>
 </html>
 
